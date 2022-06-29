@@ -44,6 +44,7 @@ int main()
     cout << "ENTER THE VALUE WHICH IS TO BE SEARCHED IN THE ARRAY" << endl;
     cin >> search_value;
 
-    cout << binary_search(arr, array_size, search_value) << endl;
+    cout << "The index of the search element is :- " << binary_search(arr, array_size, search_value) << endl;
+    cout << "Note: The index of an array starts from 0";
     return 0;
 }
